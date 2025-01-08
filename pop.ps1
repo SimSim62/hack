@@ -37,16 +37,16 @@ $cycles = 3
 # List as many questions here as you like, it will cycke through all of them
 
 $msgs = @(
-"Are all scammers as dumb as you?"
-"Is the pay worth being this big of a loser?"
-"Do your parents know what you do for a living?"
-"Does you boss know much much you suck at this job?"
+"COUCOU"
+"TON PC EST INFECTÉ"
+"CHEH"
+"A+"
 )
 
 for ($i=1; $i -le $cycles; $i++) {
 
 Foreach ($msg in $msgs) {
-[System.Windows.Forms.MessageBox]::Show($msg , "You're-a-Loser.exe" , 4 , 'Question')
+[System.Windows.Forms.MessageBox]::Show($msg , "Loser.exe" , 4 , 'Question')
 }
 }
 
